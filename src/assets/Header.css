@@ -1,7 +1,7 @@
 .header-div {
-    padding-left: 1rem;
+    padding: 20px;
     background: linear-gradient(to right, #6B2584, #8825AB, #A626D3);
-    height: 70px;
+    height: 80px;
     display: flex;
     align-items: center;
     box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
@@ -9,11 +9,11 @@
 
 .header-title {
     color: white;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .header-photo {
-    height: 2rem;
+    height: 100%;
     margin-right: 8px;
 }
