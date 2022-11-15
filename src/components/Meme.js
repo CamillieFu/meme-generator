@@ -51,7 +51,7 @@ export default function Meme() {
           value={meme.bottomText}
           onChange={handleChange}
         />
-        <button className="meme-form-submit-button" onClick={getMeme}>Generate Meme</button>
+        <button className="meme-form-submit-button" onClick={getMeme}>Get a New Meme Image</button>
       </div>
       <div className="meme-div">
         <img src={meme.randomImage} alt="meme" className="meme-image"/>
