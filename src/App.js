@@ -6,9 +6,8 @@ export default function App() {
   return (
     <div>
       <Header />
-      <Meme />
       <div className="page-contents">
-        <h1>Hellooo world!</h1>
+        <Meme />
       </div>
     </div>
   )
